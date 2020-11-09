@@ -1,5 +1,5 @@
 " =============================================================================
-" Filename: autoload/lightline/colorscheme/gruvbox.vim
+" Filename: autoload/lightline/colorscheme/gruvbox_alt.vim
 " Author: muxcmux
 " License: MIT License
 " Last Change: Mon Nov 9 22:25:15 GMT 2020
@@ -40,4 +40,4 @@ let s:p.tabline.tabsel = [ [ s:base02, s:blue ] ]
 let s:p.tabline.middle = [ [ s:base01, s:base02 ] ]
 let s:p.tabline.right = [ [ s:base0, s:base02 ] ]
 
-let g:lightline#colorscheme#gruvbox#palette = lightline#colorscheme#flatten(s:p)
+let g:lightline#colorscheme#gruvbox_alt#palette = lightline#colorscheme#flatten(s:p)
