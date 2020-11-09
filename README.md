@@ -25,7 +25,7 @@ Add one of the following examples to your .vimrc
 
 ```vim
 let g:lightline = {
-      \ 'colorscheme': 'gruvbox',
+      \ 'colorscheme': 'gruvbox-alt',
       \ }
 ```
 
