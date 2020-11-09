@@ -13,14 +13,6 @@ let s:base1 = [ '#949484', 246 ]
 let s:base2 = [ '#a8a897', 248 ]
 let s:base3 = [ '#e8e8d3', 253 ]
 
-" let s:red = ['#fb4934', 167]
-" let s:green = ['#b8bb26', 142]
-" let s:yellow = ['#fabd2f', 214]
-" let s:blue = ['#83a598', 109]
-" let s:orange = ['#fe8019', 208]
-" let s:magenta = ['#d3869b', 175]
-" let s:cyan = ['#b8bb26', 142]
-
 let s:red    = ['#fb4934', 167]     " 251-73-52
 let s:green  = ['#b8bb26', 142]     " 184-187-38
 let s:yellow = ['#fabd2f', 214]     " 250-189-47
@@ -48,4 +40,4 @@ let s:p.tabline.tabsel = [ [ s:base02, s:blue ] ]
 let s:p.tabline.middle = [ [ s:base01, s:base02 ] ]
 let s:p.tabline.right = [ [ s:base0, s:base02 ] ]
 
-let g:lightline#colorscheme#gruvbox_dark#palette = lightline#colorscheme#flatten(s:p)
+let g:lightline#colorscheme#gruvbox#palette = lightline#colorscheme#flatten(s:p)
