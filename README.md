@@ -1,13 +1,13 @@
 gruvbox-lightline
 ==================
 
-gruvbox-theme brings [gruvbox](https://github.com/morhetz/gruvbox) colorscheme to [lightline](https://github.com/itchyny/lightline.vim)
+gruvbox-theme is a [gruvbox](https://github.com/morhetz/gruvbox) colorscheme for [lightline](https://github.com/itchyny/lightline.vim)
 
 Installation
 ------------
 Install using your favorite Vim Plugin Manager. I personally use [vim-plug](junegunn/vim-plug)
 
-####vim-plug
+#### vim-plug
 
 - Add the following configuration to your .vimrc
 
