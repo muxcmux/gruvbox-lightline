@@ -21,7 +21,7 @@ Plug "muxcmux/gruvbox-lightline"
 
 Setup
 -----
-Add one of the following examples to your .vimrc
+Configure your lightline theme in `.vimrc`
 
 ```vim
 let g:lightline = {
