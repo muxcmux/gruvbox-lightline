@@ -23,7 +23,7 @@ let s:orange = ['#fe8019', 208]     " 254-128-25
 
 
 let s:p = {'normal': {}, 'inactive': {}, 'insert': {}, 'replace': {}, 'visual': {}, 'tabline': {}, 'command': {} }
-let s:p.normal.left = [ [ s:base02, s:base1 ], [ s:base3, s:base01 ] ]
+let s:p.normal.left = [ [ s:base02, s:base1, 'bold' ], [ s:base3, s:base01 ] ]
 let s:p.normal.right = [ [ s:base02, s:base1 ], [ s:base2, s:base01 ] ]
 let s:p.normal.middle = [ [ s:base0, s:base02 ] ]
 let s:p.normal.error = [ [ s:red, s:base02 ] ]
@@ -31,10 +31,10 @@ let s:p.normal.warning = [ [ s:yellow, s:base01 ] ]
 let s:p.inactive.right = [ [ s:base02, s:base00 ], [ s:base0, s:base02 ] ]
 let s:p.inactive.left =  [ [ s:base0, s:base02 ], [ s:base00, s:base02 ] ]
 let s:p.inactive.middle = [ [ s:base00, s:base02 ] ]
-let s:p.insert.left = [ [ s:base02, s:green ], [ s:green, s:base01 ] ]
-let s:p.replace.left = [ [ s:base02, s:red ], [ s:base3, s:base01 ] ]
-let s:p.visual.left = [ [ s:base02, s:orange ], [ s:orange, s:base01 ] ]
-let s:p.command.left = [ [ s:base02, s:blue ], [ s:blue, s:base01 ] ]
+let s:p.insert.left = [ [ s:base02, s:green, 'bold' ], [ s:green, s:base01 ] ]
+let s:p.replace.left = [ [ s:base02, s:red, 'bold' ], [ s:base3, s:base01 ] ]
+let s:p.visual.left = [ [ s:base02, s:orange, 'bold' ], [ s:orange, s:base01 ] ]
+let s:p.command.left = [ [ s:base02, s:blue, 'bold' ], [ s:blue, s:base01 ] ]
 let s:p.tabline.left = [ [ s:base0, s:base02 ] ]
 let s:p.tabline.tabsel = [ [ s:base02, s:blue ] ]
 let s:p.tabline.middle = [ [ s:base01, s:base02 ] ]
